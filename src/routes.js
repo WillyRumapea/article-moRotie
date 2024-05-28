@@ -3,17 +3,17 @@ const { getAllMold, getMoldById, changeMold } = require("../handler");
 const routes = [
   {
     method: "GET",
-    path: "/src/jamur",
+    path: "/jamur",
     handler: getAllMold,
   },
   {
     method: "GET",
-    path: "/src/jamur/{id}",
+    path: "/jamur/{id}",
     handler: getMoldById,
   },
   {
     method: "PUT",
-    path: "/src/jamur/{id}",
+    path: "/jamur/{id}",
     handler: changeMold,
   },
 ];
